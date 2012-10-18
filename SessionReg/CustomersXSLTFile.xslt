@@ -12,6 +12,7 @@
         <th>Surname</th>
         <th>Age</th>
       </tr>
+      
       <xsl:for-each select="customer">
         <tr>
           <td>

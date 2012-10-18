@@ -12,9 +12,11 @@ namespace SessionReg
         private const int PageId = 1;
         protected void Page_Load(object sender, EventArgs e)
         {
+            Session["LastHandler"] = ""; //  Заплатка против повторного вызова
+
             if (!Session.IsNewSession)
             {
-                Response.Write("<b>Ошибка! Страница уже была загружена!</b>");               
+                //Response.Write("<b>Ошибка! Страница уже была загружена!</b>");               
                 Session["LastHandler"] = ""; //  Заплатка против повторного вызова
             }
             else

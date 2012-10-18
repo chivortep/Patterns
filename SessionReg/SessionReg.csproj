@@ -13,6 +13,7 @@
     <RootNamespace>SessionReg</RootNamespace>
     <AssemblyName>SessionReg</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,12 +52,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CustomersXSLTFile.xslt" />
+    <Content Include="delete.aspx" />
     <Content Include="Error.aspx" />
     <Content Include="form1.aspx" />
     <Content Include="form2.aspx" />
     <Content Include="form3.aspx" />
     <Content Include="form4.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="main.aspx" />
     <Content Include="results.aspx" />
+    <Content Include="update.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -68,11 +73,21 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Commands\CommitCommand.cs" />
+    <Compile Include="Commands\DeleteCustomerCommand.cs" />
     <Compile Include="Commands\ICommand.cs" />
-    <Compile Include="Commands\SaveCommand.cs" />
+    <Compile Include="Commands\CreateCustomerCommand.cs" />
+    <Compile Include="Commands\UpdateCustomerCommand.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerValueListHandler.cs" />
     <Compile Include="DAO.cs" />
+    <Compile Include="delete.aspx.cs">
+      <DependentUpon>delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="delete.aspx.designer.cs">
+      <DependentUpon>delete.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Error.aspx.cs">
       <DependentUpon>Error.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -114,6 +129,16 @@
     <Compile Include="form4.aspx.designer.cs">
       <DependentUpon>form4.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="main.aspx.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="main.aspx.designer.cs">
+      <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ResultsFrontController.cs" />
     <Compile Include="MyHttpModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -130,6 +155,14 @@
       <DependentUpon>results.aspx</DependentUpon>
     </Compile>
     <Compile Include="TransformView.cs" />
+    <Compile Include="UnitOfWork.cs" />
+    <Compile Include="update.aspx.cs">
+      <DependentUpon>update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="update.aspx.designer.cs">
+      <DependentUpon>update.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ValueListHandler.cs" />
   </ItemGroup>
   <ItemGroup>
