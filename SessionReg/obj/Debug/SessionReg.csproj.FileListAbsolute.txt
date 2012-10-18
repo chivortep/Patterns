@@ -13,3 +13,8 @@ D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\bin
 D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\ResolveAssemblyReference.cache
 D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.dll
 D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.pdb
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.dll
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.pdb
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.dll
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.pdb

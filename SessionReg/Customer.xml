@@ -1,0 +1,27 @@
+<customers>
+  <customer>
+    <name>Theodor</name>
+    <surname>Draiser</surname>
+    <age>22</age>
+  </customer>
+  <customer>
+    <name>s</name>
+    <surname>s</surname>
+    <age>1</age>
+  </customer>
+  <customer>
+    <name>ff</name>
+    <surname>f</surname>
+    <age>33</age>
+  </customer>
+  <customer>
+    <name>f</name>
+    <surname>g</surname>
+    <age>55</age>
+  </customer>
+  <customer>
+    <name>Albert</name>
+    <surname>Einstein</surname>
+    <age>32</age>
+  </customer>
+</customers>
