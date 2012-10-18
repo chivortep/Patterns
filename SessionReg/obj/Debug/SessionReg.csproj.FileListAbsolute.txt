@@ -1,0 +1,15 @@
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\bin\SessionReg.dll
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\bin\SessionReg.pdb
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\obj\Debug\SessionReg.dll
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+F:\SessionReg\SessionReg\bin\SessionReg.dll
+F:\SessionReg\SessionReg\bin\SessionReg.pdb
+F:\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+F:\SessionReg\SessionReg\obj\Debug\SessionReg.dll
+F:\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.dll
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.pdb
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.dll
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.pdb
