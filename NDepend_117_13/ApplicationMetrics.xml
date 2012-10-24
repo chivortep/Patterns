@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ApplicationMetrics NAsm="1" NbSourceFiles="39" NbLinesOfCode="338" NbLinesOfComment="215" PercentageComment="38" NType="31" NClass="29" NAbstractClass="1" NInterface="2" NValueType="0" NExceptionType="0" NAttributeType="0" NDelegateType="0" NEnumType="0" NGenericMethodsDefinition="0" NGenericTypesDefinition="0" NILInstruction="2304" NMethods="101" NFields="29" NNamespaces="3" NThirdPartyAssemblies="6" NThirdPartyNamespaces="21" NThirdPartyTypes="87" NThirdPartyMethods="108" NThirdPartyFields="2" PercentCodeCoverage="0" PercentPublicType="93.55" PercentPublicMethod="72.28" PercentClassWithAtLeastOnePublicField="3.23">
+  <PropertyOnInterface Occ="2" Avg="0" StdDev="0" MaxVal="0" MaxName="SessionReg.Filters.IFilter" />
+  <MethodOnInterface Occ="2" Avg="1" StdDev="0" MaxVal="1" MaxName="SessionReg.Filters.IFilter" />
+  <ArgOnMethodOnInterface Occ="2" Avg="1" StdDev="0" MaxVal="1" MaxName="SessionReg.Filters.IFilter.ActivateFilter(HttpContext)" />
+  <PublicPropertyOnClass Occ="29" Avg="0.14" StdDev="0.57" MaxVal="3" MaxName="SessionReg.Customer" />
+  <PublicMethodOnClass Occ="29" Avg="2.45" StdDev="2.85" MaxVal="15" MaxName="SessionReg.Customer" />
+  <ArgOnPublicMethodOnClass Occ="71" Avg="0.58" StdDev="0.83" MaxVal="4" MaxName="SessionReg.Customer..ctor(String,String,Int32,Boolean)" />
+  <ILInstructionInNonAbstractMethods Occ="98" Avg="23.51" StdDev="30.17" MaxVal="124" MaxName="SessionReg.UnitOfWork.Commit()" />
+  <TypeWithTheMostILInstruction Occ="29" Avg="79.45" StdDev="103.48" MaxVal="416" MaxName="SessionReg.UnitOfWork" />
+  <MethodCC Occ="98" Avg="2.14" StdDev="2.32" MaxVal="13" MaxName="SessionReg.UnitOfWork.Commit()" />
+</ApplicationMetrics>
