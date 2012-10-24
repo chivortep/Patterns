@@ -1,0 +1,55 @@
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\bin\SessionReg.dll
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\bin\SessionReg.pdb
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\obj\Debug\SessionReg.dll
+C:\Documents and Settings\User\Мои документы\Visual Studio 2010\Projects\ASP_глава5\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+F:\SessionReg\SessionReg\bin\SessionReg.dll
+F:\SessionReg\SessionReg\bin\SessionReg.pdb
+F:\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+F:\SessionReg\SessionReg\obj\Debug\SessionReg.dll
+F:\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.dll
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.pdb
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.dll
+D:\tmp-COMP1\Сысой-2012\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.pdb
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.dll
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.pdb
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.dll
+D:\Учеба Св\02.10\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.pdb
+D:\Учеба Св\08.10\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.dll
+D:\Учеба Св\08.10\SessionReg (full)\SessionReg (19.09)\SessionReg\bin\SessionReg.pdb
+D:\Учеба Св\08.10\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+D:\Учеба Св\08.10\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.dll
+D:\Учеба Св\08.10\SessionReg (full)\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.pdb
+C:\Users\Илья\Desktop\SessionREg 10.12\SessionReg (19.09)\SessionReg\bin\SessionReg.dll
+C:\Users\Илья\Desktop\SessionREg 10.12\SessionReg (19.09)\SessionReg\bin\SessionReg.pdb
+C:\Users\Илья\Desktop\SessionREg 10.12\SessionReg (19.09)\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Илья\Desktop\SessionREg 10.12\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.dll
+C:\Users\Илья\Desktop\SessionREg 10.12\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.pdb
+D:\Учеба Св\SessionREg 10.12\SessionReg (19.09)\SessionReg\bin\SessionReg.dll
+D:\Учеба Св\SessionREg 10.12\SessionReg (19.09)\SessionReg\bin\SessionReg.pdb
+D:\Учеба Св\SessionREg 10.12\SessionReg (19.09)\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+D:\Учеба Св\SessionREg 10.12\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.dll
+D:\Учеба Св\SessionREg 10.12\SessionReg (19.09)\SessionReg\obj\Debug\SessionReg.pdb
+G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\bin\SessionReg.dll
+G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\bin\SessionReg.pdb
+G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\SessionReg.dll
+G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\bin\SessionReg.dll
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\bin\SessionReg.pdb
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\SessionReg.dll
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\bin\SessionReg.dll
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\bin\SessionReg.pdb
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\obj\Debug\SessionReg.dll
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\bin\SessionReg.dll
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\bin\SessionReg.pdb
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\obj\Debug\SessionReg.dll
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\obj\Debug\SessionReg.pdb
