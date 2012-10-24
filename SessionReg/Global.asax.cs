@@ -5,44 +5,44 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
+[assembly: CLSCompliant(true)]
 namespace SessionReg
 {
     public class Global : System.Web.HttpApplication
     {
+        //private void Application_Start(object sender, EventArgs e)
+        //{
 
-        protected void Application_Start(object sender, EventArgs e)
+        //}
+
+        private void Session_Start(object sender, EventArgs e)
         {
-
+            UnitOfWork.NewCurrent();
         }
 
-        protected void Session_Start(object sender, EventArgs e)
-        {
-            UnitOfWork.newCurrent();
-        }
+        //private void Application_BeginRequest(object sender, EventArgs e)
+        //{
 
-        protected void Application_BeginRequest(object sender, EventArgs e)
-        {
+        //}
 
-        }
+        //private void Application_AuthenticateRequest(object sender, EventArgs e)
+        //{
 
-        protected void Application_AuthenticateRequest(object sender, EventArgs e)
-        {
+        //}
 
-        }
+        //private void Application_Error(object sender, EventArgs e)
+        //{
 
-        protected void Application_Error(object sender, EventArgs e)
-        {
+        //}
 
-        }
+        //private void Session_End(object sender, EventArgs e)
+        //{
 
-        protected void Session_End(object sender, EventArgs e)
-        {
+        //}
 
-        }
+        //private void Application_End(object sender, EventArgs e)
+        //{
 
-        protected void Application_End(object sender, EventArgs e)
-        {
-
-        }
+        //}
     }
 }

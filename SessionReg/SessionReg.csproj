@@ -52,16 +52,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="CustomersXSLTFile.xslt" />
-    <Content Include="delete.aspx" />
-    <Content Include="Error.aspx" />
-    <Content Include="form1.aspx" />
-    <Content Include="form2.aspx" />
-    <Content Include="form3.aspx" />
-    <Content Include="form4.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="main.aspx" />
-    <Content Include="results.aspx" />
-    <Content Include="update.aspx" />
+    <Content Include="Pages\delete.aspx" />
+    <Content Include="Pages\Error.aspx" />
+    <Content Include="Pages\form1.aspx" />
+    <Content Include="Pages\form2.aspx" />
+    <Content Include="Pages\form3.aspx" />
+    <Content Include="Pages\form4.aspx" />
+    <Content Include="Pages\main.aspx" />
+    <Content Include="Pages\results.aspx" />
+    <Content Include="Pages\update.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -73,104 +73,94 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\CommitCommand.cs" />
-    <Compile Include="Commands\DeleteCustomerCommand.cs" />
-    <Compile Include="Commands\ICommand.cs" />
-    <Compile Include="Commands\CreateCustomerCommand.cs" />
-    <Compile Include="Commands\UpdateCustomerCommand.cs" />
+    <Compile Include="CommitCommand.cs" />
+    <Compile Include="CreateCustomerCommand.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="CustomerValueListHandler.cs" />
     <Compile Include="DAO.cs" />
-    <Compile Include="delete.aspx.cs">
-      <DependentUpon>delete.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="delete.aspx.designer.cs">
-      <DependentUpon>delete.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Error.aspx.cs">
-      <DependentUpon>Error.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Error.aspx.designer.cs">
-      <DependentUpon>Error.aspx</DependentUpon>
-    </Compile>
+    <Compile Include="DeleteCustomerCommand.cs" />
     <Compile Include="Filters\AddDateFilter.cs" />
     <Compile Include="Filters\CopyrightsFilter.cs" />
-    <Compile Include="Filters\Filter.cs" />
+    <Compile Include="Filters\FilterBase.cs" />
     <Compile Include="Filters\IFillter.cs" />
     <Compile Include="Filters\PageIdCheckFilter.cs" />
     <Compile Include="Filters\WelcomeFilter.cs" />
-    <Compile Include="form1.aspx.cs">
-      <DependentUpon>form1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="form1.aspx.designer.cs">
-      <DependentUpon>form1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="form2.aspx.cs">
-      <DependentUpon>form2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="form2.aspx.designer.cs">
-      <DependentUpon>form2.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="form3.aspx.cs">
-      <DependentUpon>form3.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="form3.aspx.designer.cs">
-      <DependentUpon>form3.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="form4.aspx.cs">
-      <DependentUpon>form4.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="form4.aspx.designer.cs">
-      <DependentUpon>form4.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="main.aspx.cs">
+    <Compile Include="ICommand.cs" />
+    <Compile Include="Pages\delete.aspx.cs">
+      <DependentUpon>delete.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\delete.aspx.designer.cs">
+      <DependentUpon>delete.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\form1.aspx.cs">
+      <DependentUpon>form1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\form1.aspx.designer.cs">
+      <DependentUpon>form1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\form2.aspx.cs">
+      <DependentUpon>form2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\form2.aspx.designer.cs">
+      <DependentUpon>form2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\form3.aspx.cs">
+      <DependentUpon>form3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\form3.aspx.designer.cs">
+      <DependentUpon>form3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\form4.aspx.cs">
+      <DependentUpon>form4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\form4.aspx.designer.cs">
+      <DependentUpon>form4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\main.aspx.cs">
       <DependentUpon>main.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="main.aspx.designer.cs">
+    <Compile Include="Pages\main.aspx.designer.cs">
       <DependentUpon>main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\results.aspx.cs">
+      <DependentUpon>results.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\results.aspx.designer.cs">
+      <DependentUpon>results.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\update.aspx.cs">
+      <DependentUpon>update.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\update.aspx.designer.cs">
+      <DependentUpon>update.aspx</DependentUpon>
     </Compile>
     <Compile Include="ResultsFrontController.cs" />
     <Compile Include="MyHttpModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Settings.settings</DependentUpon>
-    </Compile>
-    <Compile Include="results.aspx.cs">
-      <DependentUpon>results.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="results.aspx.designer.cs">
-      <DependentUpon>results.aspx</DependentUpon>
-    </Compile>
     <Compile Include="TransformView.cs" />
     <Compile Include="UnitOfWork.cs" />
-    <Compile Include="update.aspx.cs">
-      <DependentUpon>update.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="update.aspx.designer.cs">
-      <DependentUpon>update.aspx</DependentUpon>
-    </Compile>
+    <Compile Include="UpdateCustomerCommand.cs" />
     <Compile Include="ValueListHandler.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
   <ProjectExtensions>
@@ -179,7 +169,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>1104</DevelopmentServerPort>
+          <DevelopmentServerPort>5529</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

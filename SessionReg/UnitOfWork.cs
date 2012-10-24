@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 
 namespace SessionReg
 {
-    public class UnitOfWork
+    public sealed class UnitOfWork
     {
         private List<Customer> _newCustomers;
         private List<Customer> _deletedCustomers;
@@ -21,32 +19,30 @@ namespace SessionReg
         public void Commit()
         {
             List<object> existingCustomers = DAO.GetCustomersList();
-
             // сохраняем всех клиентов, которых ещё нету в базе
-            foreach (Customer customer in _newCustomers)
+            foreach (Customer customer in _newCustomers) 
             {
                 if (!existingCustomers.Contains(customer))
                     DAO.SaveCustomer(customer);
             }
-
             // удаляем всех помеченных клиентов, которые ещё есть в базе
-            foreach (Customer customer in _deletedCustomers)
+            foreach (Customer customer in _deletedCustomers) 
             {
                 if (existingCustomers.Contains(customer))
                     DAO.DeleteCustomer(customer);
             }
-
             // обновляем свойства для измененных клиентов, которые ещё есть в базе
-            foreach (KeyValuePair<Customer, Customer> customerPair in _updatedCustomers)
+            foreach (KeyValuePair<Customer, Customer> customerPair in _updatedCustomers) 
             {
                 if (existingCustomers.Contains(customerPair.Key))
                     DAO.UpdateCustomer(customerPair.Key, customerPair.Value.Name, customerPair.Value.Surname, customerPair.Value.Age);
             }
-
-            // обнуляем исполненные списки
+            // обнуляем исполненные списки новых
             _newCustomers = new List<Customer>();
+            // удаленных
             _deletedCustomers = new List<Customer>();
-            _updatedCustomers = new Dictionary<Customer, Customer>();
+            // и обновленных клиентов
+            _updatedCustomers = new Dictionary<Customer, Customer>(); 
         }
 
         public void Rollback()
@@ -144,19 +140,19 @@ namespace SessionReg
             }
         }
 
-
-        private static UnitOfWork Current;
-        public static void newCurrent()
+        
+        private static UnitOfWork s_Current;
+        public static void NewCurrent()
         {
-            setCurrent(new UnitOfWork());
+            SetCurrent(new UnitOfWork());
         }
-        public static void setCurrent(UnitOfWork uow)
+        public static void SetCurrent(UnitOfWork uow)
         {
-            Current = uow;
+            s_Current = uow;
         }
-        public static UnitOfWork getCurrent()
+        public static UnitOfWork GetCurrent()
         {
-            return Current;
+            return s_Current;
         }
     }
 }

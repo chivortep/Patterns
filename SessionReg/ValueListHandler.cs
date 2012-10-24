@@ -5,14 +5,14 @@ using System.Web;
 
 namespace SessionReg
 {
-    public class ValueListHandler
+    public class ValueListHandler:IDisposable
     {
-        protected List<object> _list;
+        private List<object> _list;
         List<object>.Enumerator _enumerator;
 
         public ValueListHandler() { }
 
-        protected void setList(List<object> list)
+        protected void SetList(List<object> list)
         {
             this._list = list;
             if (list != null)
@@ -21,9 +21,9 @@ namespace SessionReg
                 throw new MissingFieldException("List is empty!");
         }
 
-        public ICollection<object> getList() { return _list; }
+        public List<object> GetList() { return _list; }
 
-        public int getSize()
+        public int GetSize()
         {
             int size = 0;
 
@@ -34,6 +34,11 @@ namespace SessionReg
             }
             else
                 throw new MissingFieldException("List is empty!");
+        }
+
+        public void Dispose()
+        {
+            _enumerator.Dispose();
         }
     }
 }

@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Web;
+﻿using System.Web;
 using System.Web.SessionState;
-using System.Web.UI;
-using System.Web.UI.WebControls;
-using SessionReg.Commands;
 
 namespace SessionReg
 {
-    public class ResultsFrontController : IHttpHandler, IRequiresSessionState
+    public sealed class ResultsFrontController : IHttpHandler, IRequiresSessionState
     {
         public void ProcessRequest(HttpContext context)
         {

@@ -8,6 +8,10 @@ namespace SessionReg
 {
     public static class DAO
     {
+        /// <summary>
+        /// Сохранение клиента в XML
+        /// </summary>
+        /// <param name="customer"></param>
         public static void SaveCustomer(Customer customer)
         {
             String xmlFile = System.Configuration.ConfigurationManager.AppSettings["xmlFile"];
@@ -35,6 +39,10 @@ namespace SessionReg
             doc.Save(path);
         }
 
+        /// <summary>
+        /// Получение списка клиентов из XML
+        /// </summary>
+        /// <returns></returns>
         public static List<object> GetCustomersList()
         {
             List<object> _customers = new List<object>();

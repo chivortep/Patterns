@@ -8,6 +8,6 @@ namespace SessionReg.Filters
 {
     public interface IFilter
     {
-        void activateFilter(HttpContext context);
+        void ActivateFilter(HttpContext context);
     }
 }

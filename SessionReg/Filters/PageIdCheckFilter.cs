@@ -5,14 +5,14 @@ using System.Web;
 
 namespace SessionReg.Filters
 {
-    public class PageIdCheckFilter: Filter
+    public sealed class PageIdCheckFilter : FilterBase
     {
         public PageIdCheckFilter(IFilter nextFilter)
         {
             this.nextFilter = nextFilter;
         }
 
-        public override void activateFilter(HttpContext context)
+        public override void ActivateFilter(HttpContext context)
         {
             if (context.Request.QueryString["PageId"] == null)
             {
@@ -48,7 +48,7 @@ namespace SessionReg.Filters
 
             if (nextFilter != null)
             {
-                nextFilter.activateFilter(context);
+                nextFilter.ActivateFilter(context);
             }
         }
     }

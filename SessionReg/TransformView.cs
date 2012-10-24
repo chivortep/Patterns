@@ -9,6 +9,8 @@ namespace SessionReg
 {
     public static class TransformView
     {
+        
+        // Формирует html таблицу из xml+xslt
         public static string GenerateView()
         {
             String html = "";

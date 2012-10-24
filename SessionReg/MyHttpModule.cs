@@ -7,29 +7,27 @@ using SessionReg.Filters;
 
 namespace SessionReg
 {
-    public class MyHttpModule: IHttpModule, IRequiresSessionState
+    public sealed class MyHttpModule : IHttpModule, IRequiresSessionState
     {
         public void Init(HttpApplication context)
         {
-            context.PreRequestHandlerExecute += new EventHandler(context_PreRequestHandlerExecute);
-            context.PostRequestHandlerExecute += new EventHandler(context_PostRequestHandlerExecute);
+            context.PreRequestHandlerExecute += new EventHandler(Context_PreRequestHandlerExecute);
+            context.PostRequestHandlerExecute += new EventHandler(Context_PostRequestHandlerExecute);
         }
 
-        void context_PostRequestHandlerExecute(object sender, EventArgs e)
+        void Context_PostRequestHandlerExecute(object sender, EventArgs e)
         {
             HttpContext context = ((HttpApplication)sender).Context;
 
             var postFilterChain = new CopyrightsFilter(null);
-            postFilterChain.activateFilter(context);
+            postFilterChain.ActivateFilter(context);
         }
 
-        void context_PreRequestHandlerExecute(object sender, EventArgs e)
+        void Context_PreRequestHandlerExecute(object sender, EventArgs e)
         {
             HttpContext context = ((HttpApplication)sender).Context;
             var preFilterChain = new WelcomeFilter(new AddDateFilter(new PageIdCheckFilter(null)));
-            preFilterChain.activateFilter(context);
-
-            // Command
+            preFilterChain.ActivateFilter(context);
         }
 
         public void Dispose() { }

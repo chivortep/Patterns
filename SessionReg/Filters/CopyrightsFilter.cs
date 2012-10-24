@@ -5,20 +5,20 @@ using System.Web;
 
 namespace SessionReg.Filters
 {
-    public class CopyrightsFilter: Filter
+    public sealed class CopyrightsFilter : FilterBase
     {
         public CopyrightsFilter(IFilter nextFilter)
         {
             this.nextFilter = nextFilter;
         }
 
-        public override void activateFilter(HttpContext context)
+        public override void ActivateFilter(HttpContext context)
         {
             context.Response.Write("This page is protected by a copyright law... I guess...");
             
             if (nextFilter != null)
             {
-                nextFilter.activateFilter(context);
+                nextFilter.ActivateFilter(context);
             }
         }
     }    

@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SessionReg
 {
-    public class Customer : IEquatable<Customer>
+    public sealed class Customer : IEquatable<Customer>
     {
         private string name;
         private string surname;
@@ -18,7 +18,7 @@ namespace SessionReg
             { 
                 Customer newValue = new Customer(this);
                 newValue.name = value;
-                markDirty(newValue);
+                MarkDirty(newValue);
                 name = value;
             }
         }
@@ -30,7 +30,7 @@ namespace SessionReg
             {
                 Customer newValue = new Customer(this);
                 newValue.surname = value;
-                markDirty(newValue);
+                MarkDirty(newValue);
                 surname = value;
             }
         }
@@ -42,7 +42,7 @@ namespace SessionReg
             {
                 Customer newValue = new Customer(this);
                 newValue.age = value;
-                markDirty(newValue);
+                MarkDirty(newValue);
                 age = value;
             }
         }
@@ -52,7 +52,7 @@ namespace SessionReg
             this.name = "";
             this.surname = "";
             this.age = 0;
-            markNew();
+            MarkNew();
         }
 
         public Customer(string name, string surname, int age)
@@ -69,7 +69,7 @@ namespace SessionReg
             this.surname = surname;
             this.age = age;
             if (register)
-                markNew();
+                MarkNew();
         }
 
         private Customer(Customer example)
@@ -80,18 +80,18 @@ namespace SessionReg
             this.age = example.Age;
         }
 
-        public void markNew()
+        public void MarkNew()
         {
-            UnitOfWork.getCurrent().RegisterNew(this);
+            UnitOfWork.GetCurrent().RegisterNew(this);
         }
 
-        public void markDirty(Customer newValue)
+        public void MarkDirty(Customer newValue)
         {
-            UnitOfWork.getCurrent().RegisterDirty(this, newValue);
+            UnitOfWork.GetCurrent().RegisterDirty(this, newValue);
         }
-        public void markRemoved()
+        public void MarkRemoved()
         {
-            UnitOfWork.getCurrent().RegisterDeleted(this);
+            UnitOfWork.GetCurrent().RegisterDeleted(this);
         }
 
         public bool Equals(Customer other)

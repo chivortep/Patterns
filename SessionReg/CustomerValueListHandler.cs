@@ -5,14 +5,14 @@ using System.Web;
 
 namespace SessionReg
 {
-    public class CustomerValueListHandler: ValueListHandler
+    public sealed class CustomerValueListHandler: ValueListHandler
     {
-        private List<Customer> _customers;
+        private readonly List<Customer> _customers;
 
         public CustomerValueListHandler()
         {
-            base._list = DAO.GetCustomersList();
-            _customers = this.GetAllCustomers(base._list);
+            base.SetList(DAO.GetCustomersList());
+            _customers = this.GetAllCustomers(base.GetList());
         }
 
         private List<Customer> GetAllCustomers(List<object> custObjects)

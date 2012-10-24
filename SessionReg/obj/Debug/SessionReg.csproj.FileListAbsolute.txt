@@ -38,3 +38,18 @@ G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\bin\S
 G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
 G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\SessionReg.dll
 G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\bin\SessionReg.dll
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\bin\SessionReg.pdb
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\SessionReg.dll
+C:\Users\Sveta\Desktop\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\bin\SessionReg.dll
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\bin\SessionReg.pdb
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\obj\Debug\SessionReg.dll
+C:\Documents and Settings\User\Рабочий стол\SessionReg\SessionReg\obj\Debug\SessionReg.pdb
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\bin\SessionReg.dll
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\bin\SessionReg.pdb
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\obj\Debug\SessionReg.dll
+C:\Users\Sveta\Desktop\SessionReg 23.10\SessionReg\obj\Debug\SessionReg.pdb
