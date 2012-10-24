@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>10/18/2012 00:46:45 Begin full analysis with NDepend v4.0.2</Info>
+  <Info>No Baseline for Comparison loaded.</Info>
+  <Info>Concurrent mode</Info>
+  <Info>Assemblies loaded from {G:\!!!5\Сысой\SessionREg 11.12\SessionREg 11.12\SessionReg\SessionReg\bin} 
+   SessionReg.dll   v1.0.0.0</Info>
+  <Info>Assemblies loaded from {C:\Windows\Microsoft.NET\Framework\v4.0.30319} 
+   System.Web.dll   v4.0.0.0
+   mscorlib.dll   v4.0.0.0
+   System.dll   v4.0.0.0
+   System.Configuration.dll   v4.0.0.0
+   System.Xml.dll   v4.0.0.0
+   System.Core.dll   v4.0.0.0</Info>
+  <Warning>No application or third party assembly found in directory {C:\Windows\Microsoft.NET\Framework\v4.0.30319\WPF}</Warning>
+  <Info>40 source files parsed ; all source files found ; all source files in-sync with PDB</Info>
+  <Info>0 code rule has been extracted from code.</Info>
+  <Info>No dependency cycle detected in assemblies referencement graph.</Info>
+  <Info>10/18/2012 00:46:48 Analyse dependencies of your application.</Info>
+  <Info>10/18/2012 00:46:49 Building the report (standard).</Info>
+</InfoWarnings>

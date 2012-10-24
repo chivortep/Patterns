@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<AssembliesMetrics>
-  <Assembly Assembly="SessionReg v1.0.0.0" NTypes="31" NAbstractTypes="2" NILInstructionInAsm="2304" NbLinesOfCodeInAsm="338" NbLinesOfCommentInAsm="215" PercentageCommentInAsm="38" PercentageCoverageInAsm="-" AfferentCoupling="0" EfferentCoupling="63" RelationalCohesion="1.55" Instability="1" Abstractness="0.1" DistFrMainSeq="0.07" NormDistFrMainSeq="0.1" />
-</AssembliesMetrics>
